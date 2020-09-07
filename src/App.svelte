@@ -19,7 +19,7 @@
 		{
 			id: 1,
 			question: 'Python or JavaScript?',
-			andwerA: 'Python',
+			answerA: 'Python',
 			answerB: 'JavaScript',
 			votesA: 9,
 			votesB: 15

@@ -1,6 +1,6 @@
-import { writeable } from 'svelte/store';
+import { writable } from 'svelte/store';
 
-const PollStore = writeable([
+const PollStore = writable([
 	{
 		id: 1,
 		question: 'Python or JavaScript?',
@@ -9,6 +9,6 @@ const PollStore = writeable([
 		votesA: 9,
 		votesB: 15
 	},
-]); // it creates a writeable store of data
+]); // it creates a writable store of data
 
 export default PollStore;
